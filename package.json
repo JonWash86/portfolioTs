@@ -1,0 +1,24 @@
+{
+  "name": "portfoliots",
+  "version": "1.0.0",
+  "description": "A full redesign and rewrite on my portfolio, using TS/React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonWash86/portfolioTs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonWash86/portfolioTs/issues"
+  },
+  "homepage": "https://github.com/JonWash86/portfolioTs#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "tslint": "^6.1.3",
+    "typescript": "^5.0.2"
+  }
+}
