@@ -9,10 +9,10 @@ function App() {
       </header>
       <div className='flex-parent-element'>
         <div className='flex-child-element'>
-
+          Title and navigation
         </div>        
         <div className='flex-child-element'>
-          
+          Body content
         </div>
       </div>
     </div>
