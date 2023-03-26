@@ -12,3 +12,17 @@
   color: #61dafb;
 }
 
+.flex-parent-element {
+  justify-content: center;
+  display: flex;
+  margin-top: 150px;
+}
+
+.flex-child-element {
+  flex: 1;
+  margin: 10px;
+}
+
+.flex-child-element:first-child {
+  margin-right: 20px;
+}
