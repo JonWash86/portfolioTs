@@ -1,6 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import Body from './components/Body';
+import SideNav from './components/SideNav';
+import SocialLinks from './components/SocialLinks';
 
 function App() {
   return (
@@ -8,13 +11,13 @@ function App() {
       <header className='App-header'>
       </header>
       <div className='flex-parent-element'>
-        <div className='flex-child-element'>
-          Title and navigation
-        </div>        
-        <div className='flex-child-element'>
-          Body content
-        </div>
+        <SideNav />
+        <div className='vLine'/>
+        <Body />
       </div>
+      <footer>
+        <SocialLinks />
+      </footer>
     </div>
   );
 }
