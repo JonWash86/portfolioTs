@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-import SideNav from './components/SideNav'
+import Body from './components/Body';
+import SideNav from './components/SideNav';
 import SocialLinks from './components/SocialLinks';
 
 function App() {
@@ -11,13 +11,9 @@ function App() {
       <header className='App-header'>
       </header>
       <div className='flex-parent-element'>
-        <div className='flex-child-element'>
-          <SideNav />
-          Title and navigation
-        </div>        
-        <div className='flex-child-element'>
-          Body content
-        </div>
+        <SideNav />
+        <div className='vLine'/>
+        <Body />
       </div>
       <footer>
         <SocialLinks />

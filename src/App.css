@@ -26,3 +26,8 @@
 .flex-child-element:first-child {
   margin-right: 20px;
 }
+
+.vLine {
+  border-left: 3px solid black;
+  height: 500px;
+}
