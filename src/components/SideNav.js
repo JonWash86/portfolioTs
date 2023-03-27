@@ -9,12 +9,14 @@ class SideNav extends React.Component {
 
     render(){
         return (
-            <div className='flex-child-element' >
+            <div className='flex-child-element sideNav' >
                 <img src={logo} alt='self portrait icon' height='120px' width='120px' />
-                <a>JW</a>
-                <a>home</a>
-                <a>portfolio</a>
-                <a>resume</a>
+                <div id='navLinks'>
+                    <a>JW</a>
+                    <a>home</a>
+                    <a>portfolio</a>
+                    <a>resume</a>
+                </div>
             </div>
         )
     }

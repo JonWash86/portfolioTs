@@ -1,4 +1,6 @@
 import React from 'react';
+import bodyText from '../data/bodyText.json';
+
 
 class Body extends React.Component{
     constructor(props){
@@ -8,7 +10,7 @@ class Body extends React.Component{
     render(){
         return (
             <div className='flex-child-element'>
-                site content is rendered here.
+                <a>{bodyText[0].text}</a>
             </div>
         )
     }

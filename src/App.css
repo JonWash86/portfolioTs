@@ -27,6 +27,22 @@
   margin-right: 20px;
 }
 
+#navLinks {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.sideNav {
+  align-items: center;
+  display: flex;
+  flex-basis: 150px;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding-left: 125px;
+}
+
 .vLine {
   border-left: 3px solid black;
   height: 500px;
