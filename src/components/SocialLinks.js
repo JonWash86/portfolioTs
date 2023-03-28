@@ -7,7 +7,7 @@ class SocialLinks extends React.Component {
 
     render(){
         return(
-            <div>Social Links will sit here!</div>
+            <div class='social-links'>Social Links will sit here!</div>
         )
     }
 }

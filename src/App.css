@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -29,7 +23,7 @@
 
 .main-content {
   text-align: start;
-  padding-left: 25px;
+  padding: 0px 175px 0px 25px;
 }
 
 #navLinks {
@@ -48,8 +42,14 @@
   padding-left: 125px;
 }
 
+.social-links {
+  position: fixed;
+  bottom: 35px;
+  padding-left: 325px;
+}
+
 .vLine {
   border-left: 1px solid black;
-  height: 500px;
+  height: 400px;
   margin: 25px 0px 25px 0px;
 }
