@@ -10,8 +10,8 @@ class Body extends React.Component{
     render(){
         return (
             <div className='flex-child-element main-content'>
-                <h1>Jon Washington</h1>
-                <h2>Software Engineer</h2>
+                <h1 id="headline">Jon Washington</h1>
+                <h2 id="subheading">Software Engineer</h2>
                 <a>{bodyText[0].text}</a>
             </div>
         )

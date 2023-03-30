@@ -20,6 +20,10 @@
   margin: 10px;
 }
 
+#headline {
+  margin-bottom: 6px;
+}
+
 .flex-child-element:first-child {
   margin-right: 20px;
 }
@@ -27,6 +31,14 @@
 .main-content {
   text-align: start;
   padding: 0px 175px 0px 25px;
+}
+
+.navItem {
+  transition: .4s;
+} 
+
+.navItem:hover {
+  color: #595959;
 }
 
 #navLinks {
@@ -49,6 +61,11 @@
   position: fixed;
   bottom: 35px;
   padding-left: 325px;
+}
+
+#subheading {
+    color: #595959;
+    margin-top: 4px;
 }
 
 .vLine {
