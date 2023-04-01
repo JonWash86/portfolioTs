@@ -1,11 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Avenir');
+
 .App {
   text-align: center;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: 'Open Sans';
 }
 
 .App-link {
@@ -23,8 +21,25 @@
   margin: 10px;
 }
 
+#headline {
+  margin-bottom: 6px;
+}
+
 .flex-child-element:first-child {
   margin-right: 20px;
+}
+
+.main-content {
+  text-align: start;
+  padding: 0px 175px 0px 25px;
+}
+
+.navItem {
+  transition: .4s;
+} 
+
+.navItem:hover {
+  color: #595959;
 }
 
 #navLinks {
@@ -43,7 +58,19 @@
   padding-left: 125px;
 }
 
+.social-links {
+  position: fixed;
+  bottom: 35px;
+  padding-left: 325px;
+}
+
+#subheading {
+    color: #595959;
+    margin-top: 4px;
+}
+
 .vLine {
-  border-left: 3px solid black;
-  height: 500px;
+  border-left: 1px solid black;
+  height: 400px;
+  margin: 25px 0px 25px 0px;
 }
