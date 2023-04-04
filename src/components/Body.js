@@ -5,8 +5,13 @@ import bodyText from '../data/bodyText.json';
 class Body extends React.Component{
     constructor(props){
         super(props);
+        console.log('props:');
+        console.log(props);
     }
 
+    changePage(){
+        this.setState();
+    }
     render(){
         return (
             <div className='flex-child-element main-content'>

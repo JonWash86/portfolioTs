@@ -1,11 +1,20 @@
 import React from 'react';
-import logo from '../assets/jonIcon2023.jpg';
-import projects from '../data/projects.json';
+import { useState } from 'react';
 
+import logo from '../assets/jonIcon2023.jpg';
+import NavLink from './NavLink';
+import projects from '../data/projects.json';
 
 class SideNav extends React.Component {
     constructor(props){
         super(props);
+    }
+
+    onLinkClick(link){
+        console.log('click!');
+        console.log(link.target.id);
+        console.log(this);
+
     }
 
     render(){
@@ -15,8 +24,8 @@ class SideNav extends React.Component {
                 <div id='navLinks'>
 
                     <a>JW</a>
-                    <a className="navItem">home</a>
-                    <a className="navItem">portfolio</a>
+                    <NavLink className="navItem" onLinkClick={this.onLinkClick} />
+                    <a id="portfolio" className="navItem" onClick={this.onLinkClick}>portfolio</a>
                     <a className="navItem">resume</a>
                 </div>
             </div>
