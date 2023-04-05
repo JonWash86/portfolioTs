@@ -13,11 +13,10 @@ class SideNav extends React.Component {
     onLinkClick(link){
         console.log('click!');
         console.log(link.target.id);
-        console.log(this);
     }
 
     render(){
-        let linkList = pages.map(item => <div><a id={item.title} className="navItem">{item.title}</a></div>);
+        let linkList = pages.map(item => <div><a id={item.id} className="navItem" onClick={this.onLinkClick}>{item.title}</a></div>);
 
         return (
             <div className='flex-child-element sideNav' >

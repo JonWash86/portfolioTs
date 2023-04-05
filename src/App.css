@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Avenir');
 
 .App {
+  cursor: default;
   text-align: center;
   font-family: 'Open Sans';
 }
@@ -35,6 +36,7 @@
 }
 
 .navItem {
+  cursor: pointer;
   transition: .4s;
 } 
 
