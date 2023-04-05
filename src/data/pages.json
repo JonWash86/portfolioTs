@@ -1,11 +1,18 @@
 [
     {
-        "title": "home"
+        "title": "home",
+        "text": ["blah blah"]
     },
     {
-        "title": "projects"
+        "title": "about",
+        "text": ["this is a fuller biography page"]
     },
     {
-        "title": "resume"
+        "title": "projects",
+        "text": ["here's what I've been working on!"]
+    },
+    {
+        "title": "resume",
+        "text": ["something"]
     }
 ]

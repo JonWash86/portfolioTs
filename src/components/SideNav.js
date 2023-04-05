@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 
+import pages from '../data/pages.json';
 import logo from '../assets/jonIcon2023.jpg';
-import NavLink from './NavLink';
 import projects from '../data/projects.json';
 
 class SideNav extends React.Component {
@@ -14,19 +14,16 @@ class SideNav extends React.Component {
         console.log('click!');
         console.log(link.target.id);
         console.log(this);
-
     }
 
     render(){
+        let linkList = pages.map(item => <div><a id={item.title} className="navItem">{item.title}</a></div>);
+
         return (
             <div className='flex-child-element sideNav' >
                 <img src={logo} alt='self portrait icon' height='120px' width='120px' />
                 <div id='navLinks'>
-
-                    <a>JW</a>
-                    <NavLink className="navItem" onLinkClick={this.onLinkClick} />
-                    <a id="portfolio" className="navItem" onClick={this.onLinkClick}>portfolio</a>
-                    <a className="navItem">resume</a>
+                    {linkList}
                 </div>
             </div>
         )
