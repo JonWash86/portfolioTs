@@ -1,0 +1,26 @@
+[
+    {
+        "key": 1,
+        "name": "email",
+        "href": "mailto:jon.washington@gmail.com",
+        "icon":"../../socialIcons/mail.jpg"
+    },
+    {
+        "key": 2,
+        "name": "linkedIn",
+        "href": "https://www.linkedin.com/in/jonwash86/",
+        "icon":"../../socialIcons/linkedIn.jpg"
+    },
+    {
+        "key": 3,
+        "name": "instagram",
+        "href": "https://www.instagram.com/goodolejon/",
+        "icon":"../../socialIcons/insta.jpg"
+    },
+    {
+        "key": 4,
+        "name": "github",
+        "href": "http://github.com/JonWash86",
+        "icon":"../../socialIcons/github.jpg"
+    }
+]

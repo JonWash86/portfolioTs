@@ -60,6 +60,10 @@
   padding-left: 125px;
 }
 
+.social-icon {
+  padding-right: 6px;
+}
+
 .social-links {
   position: fixed;
   bottom: 35px;
