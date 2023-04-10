@@ -1,20 +1,24 @@
 [
     {
+        "key": 1,
         "id": "home",
         "title": "JW",
         "text": ["blah blah"]
     },
     {
+        "key": 2,
         "id": "about",
         "title": "about",
         "text": ["this is a fuller biography page"]
     },
     {
+        "key": 3,
         "id": "projects",
         "title": "projects",
         "text": ["here's what I've been working on!", "this is another paragraph!"]
     },
     {
+        "key": 4,
         "id": "resume",
         "title": "resume",
         "text": ["something"]

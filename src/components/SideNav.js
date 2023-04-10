@@ -8,15 +8,22 @@ import projects from '../data/projects.json';
 class SideNav extends React.Component {
     constructor(props){
         super(props);
+        console.log(props);
     }
 
-    onLinkClick(link){
+    setActive(link){
+        [document.getElementsByClassName('bodySection')].forEach(element => {
+            console.log(element);
+            element.style.display = 'none';
+        });
         console.log('click!');
         console.log(link.target.id);
+       // allContent.style.display = 'none';
+        // this.props.onClick(link.target.id);
     }
 
     render(){
-        let linkList = pages.map(item => <div><a id={item.id} className="navItem" onClick={this.onLinkClick}>{item.title}</a></div>);
+        let linkList = pages.map(item => <div><a id={item.id} className="navItem" onClick={this.setActive}>{item.title}</a></div>);
 
         return (
             <div className='flex-child-element sideNav' >
