@@ -58,6 +58,12 @@
   flex-grow: 0;
   flex-shrink: 0;
   padding-left: 125px;
+  text-decoration: none;
+} :link {
+  text-decoration: none;
+} :visited {
+  text-decoration: none;
+  color: black;
 }
 
 .social-icon {

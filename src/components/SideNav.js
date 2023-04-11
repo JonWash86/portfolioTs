@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import pages from '../data/pages.json';
 import logo from '../assets/jonIcon2023.jpg';
-import projects from '../data/projects.json';
+import resume from '../assets/Washington_Jonathan_Resume.pdf';
+import pages from '../data/pages.json';
+
 
 class SideNav extends React.Component {
     constructor(props){
@@ -18,6 +19,7 @@ class SideNav extends React.Component {
                 <img src={logo} alt='self portrait icon' height='120px' width='120px' />
                 <div id='navLinks'>
                     {linkList}
+                    <div><Link id="resume" className="navItem" to={resume} target="_blank">resume&#8599;</Link></div>
                 </div>
             </div>
         )

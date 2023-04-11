@@ -3,7 +3,7 @@
         "key": 1,
         "href": "/",
         "id": "home",
-        "title": "JW"
+        "title": "home"
     },
     {
         "key": 2,
@@ -16,11 +16,5 @@
         "href": "projects",
         "id": "projects",
         "title": "projects"
-    },
-    {
-        "key": 4,
-        "href":"",
-        "id": "resume",
-        "title": "resume"
     }
 ]
