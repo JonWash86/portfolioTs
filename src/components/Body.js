@@ -1,5 +1,9 @@
 import React from 'react';
-import bodyText from '../data/bodyText.json';
+import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
+
+import About from '../pages/about';
+import Home from '../pages/home';
+import Projects from '../pages/projects';
 
 
 class Body extends React.Component{
@@ -10,9 +14,13 @@ class Body extends React.Component{
     render(){
         return (
             <div className='flex-child-element main-content'>
-                <h1 id="headline">Jon Washington</h1>
-                <h2 id="subheading">Software Engineer</h2>
-                <a>{bodyText[0].text}</a>
+                    <h1 id='headline'>Jon Washington</h1>
+                    <h2 id='subheading'>Software Engineer</h2>
+                    <Routes>
+                        <Route path='/' element={<Home/>}/>
+                        <Route path='/about' element={<About/>}/>
+                        <Route path='/projects' element={<Projects/>}/>
+                    </Routes>
             </div>
         )
     }

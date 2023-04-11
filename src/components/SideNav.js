@@ -1,6 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import logo from '../assets/jonIcon2023.jpg';
-import projects from '../data/projects.json';
+import resume from '../assets/Washington_Jonathan_Resume.pdf';
+import pages from '../data/pages.json';
 
 
 class SideNav extends React.Component {
@@ -9,15 +12,14 @@ class SideNav extends React.Component {
     }
 
     render(){
+        let linkList = pages.map(item => <div><Link id={item.id} className="navItem" to={item.href}>{item.title}</Link></div>);
+
         return (
             <div className='flex-child-element sideNav' >
                 <img src={logo} alt='self portrait icon' height='120px' width='120px' />
                 <div id='navLinks'>
-
-                    <a>JW</a>
-                    <a className="navItem">home</a>
-                    <a className="navItem">portfolio</a>
-                    <a className="navItem">resume</a>
+                    {linkList}
+                    <div><Link id="resume" className="navItem" to={resume} target="_blank">resume&#8599;</Link></div>
                 </div>
             </div>
         )

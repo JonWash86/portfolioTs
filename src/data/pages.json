@@ -1,11 +1,20 @@
 [
     {
+        "key": 1,
+        "href": "/",
+        "id": "home",
         "title": "home"
     },
     {
-        "title": "projects"
+        "key": 2,
+        "href": "/about",
+        "id": "about",
+        "title": "about"
     },
     {
-        "title": "resume"
+        "key": 3,
+        "href": "projects",
+        "id": "projects",
+        "title": "projects"
     }
 ]
