@@ -11,17 +11,6 @@ class SideNav extends React.Component {
         console.log(props);
     }
 
-    setActive(link){
-        [document.getElementsByClassName('bodySection')].forEach(element => {
-            console.log(element);
-            element.style.display = 'none';
-        });
-        console.log('click!');
-        console.log(link.target.id);
-       // allContent.style.display = 'none';
-        // this.props.onClick(link.target.id);
-    }
-
     render(){
         let linkList = pages.map(item => <div><a id={item.id} className="navItem" onClick={this.setActive}>{item.title}</a></div>);
 
