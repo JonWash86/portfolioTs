@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
@@ -8,13 +7,6 @@ import SideNav from './components/SideNav';
 import SocialLinks from './components/SocialLinks';
 
 function App(this: any) {
-  const [activePage, setActivePage] = useState('home');
-
-  let handleNavigation = (link: string) => {
-    console.log('you did it you basterd');
-    console.log(link);
-    setActivePage(link);
-  }
 
   return (
     <div className='App'>
@@ -22,9 +14,9 @@ function App(this: any) {
         <header className='App-header'>
         </header>
         <div className='flex-parent-element'>
-          <SideNav activePage={activePage} setActivePage={setActivePage} onClick={handleNavigation}/>
+          <SideNav />
           <div className='vLine'/>
-          <Body activePage={activePage} />
+          <Body />
         </div>
         <footer>
           <SocialLinks />

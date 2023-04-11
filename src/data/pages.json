@@ -1,26 +1,26 @@
 [
     {
         "key": 1,
+        "href": "/",
         "id": "home",
-        "title": "JW",
-        "text": ["blah blah"]
+        "title": "JW"
     },
     {
         "key": 2,
+        "href": "/about",
         "id": "about",
-        "title": "about",
-        "text": ["this is a fuller biography page"]
+        "title": "about"
     },
     {
         "key": 3,
+        "href": "projects",
         "id": "projects",
-        "title": "projects",
-        "text": ["here's what I've been working on!", "this is another paragraph!"]
+        "title": "projects"
     },
     {
         "key": 4,
+        "href":"",
         "id": "resume",
-        "title": "resume",
-        "text": ["something"]
+        "title": "resume"
     }
 ]
