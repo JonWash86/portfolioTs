@@ -31,6 +31,7 @@
 }
 
 .main-content {
+  max-width: 500px;
   text-align: start;
   padding: 0px 175px 0px 25px;
 }
@@ -48,6 +49,24 @@
   align-items: start;
   display: flex;
   flex-direction: column;
+}
+
+.projDate {
+  color: gray;
+  font-size: .8em;
+}
+
+.projLink {
+  color: gray;
+} :link {
+  text-decoration: none;
+} :visited {
+  text-decoration: none;
+  color: black;
+}
+
+.projTitle {
+  font-size: 1.3em;
 }
 
 .sideNav {
@@ -72,13 +91,21 @@
 
 .social-links {
   position: fixed;
-  bottom: 35px;
-  padding-left: 325px;
+  background-color:white;
+  bottom: 25px;
+  padding-top: 10px;
+  right: 158px;
+  width: 100%;
 }
 
 #subheading {
     color: #595959;
     margin-top: 4px;
+}
+
+.textContainer {
+  overflow-y: scroll;
+  height: 290px;
 }
 
 .vLine {
