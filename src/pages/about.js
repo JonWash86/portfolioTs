@@ -6,9 +6,9 @@ const About = () =>
         <div>
             <h3>a bit more about me:</h3>
             <div className='textContainer'>
-                <p>Originally from Arizona, I migrated through California to snag a film degree before settling in Portland almost fifteen years ago. A liberal arts degree led to customer service and admin work; it was fun and rewarding, but at a certain point I wanted a career that allowed me to get ahead of problems and solve puzzles.</p>
-                <p>Since 2018, I've been putting my skills to work building a variety of web-based applications for my own use, as well as building, improving and maintaining software as an engineer, first with Precoa and now with Zapproved. While I love that the sheer variety of languages and frameworks means there's always something new to explore, I'm especially comfortable working with Angular, React, and PHP.</p>
-                <p>In my free time, you'll find me reading, baking, running, playing guitar, or buying records. My wife and I try to get out and explore at least once a month (I highly recommend checking out eastern Oregon). I'll be more than glad to share pictures of my dog as well as my three cats, whom I'm very proud did not run across the keyboard once while I wrote up this whole thing.</p>
+                <p>I’m a software engineer based in Portland, Oregon. I love writing clean code, solving twisty puzzles, and exploring new technologies. At the moment, I’m building legal hold solutions with my team at Zapproved and figuring out TypeScript in my free time.</p>
+                <p>I was always “the one in the house who knows what to do when the computer stops working,” but I took my first serious crack at coding from scratch in 2017, when a friend put a beginner’s Python book in my hands. I then attended Alchemy Code Lab’s Boot Camp I & II to build a foundation of knowledge and good habits, and then I was off to the races building a variety of useful (or at least useful to my weird brain) web-based applications, first for myself and then for the good folks at Precoa. </p>
+                <p>When I’m not busy building amazing things, you’ll find me finishing a book (and adding four more to my to-read list), running, playing guitar, or baking something complicated. On the weekends my wife and I are either exploring some new corner of the Pacific Northwest or discovering our new favorite restaurant or record store in town.</p>
             </div>
         </div>
     )
