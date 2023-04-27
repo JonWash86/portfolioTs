@@ -6,7 +6,7 @@ const Projects = () =>
 {
     let projList = projects.map(item => 
         <div>
-            <p className='projTitle'>{item.title} ({item.dateComplete})</p>
+            <p> <a className='projTitle'>{item.title} </a><a className='projDate'>({item.dateComplete})</a></p>
             <a className='projLink' href={item.github} target='_blank'>github</a> / <a className='projLink' href={item.liveSite} target='_blank'>live site</a>
             <p>{item.description}</p>
         </div>);

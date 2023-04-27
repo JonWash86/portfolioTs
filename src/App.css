@@ -51,6 +51,24 @@
   flex-direction: column;
 }
 
+.projDate {
+  color: gray;
+  font-size: .8em;
+}
+
+.projLink {
+  color: gray;
+} :link {
+  text-decoration: none;
+} :visited {
+  text-decoration: none;
+  color: black;
+}
+
+.projTitle {
+  font-size: 1.3em;
+}
+
 .sideNav {
   align-items: center;
   display: flex;
